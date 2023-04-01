@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 1600px;
+    height: 100vh;
+    margin: auto;
+}
+
+.nav {
+    width: 1600px;
+    height: 65px;
+    background: #282828;
+
+}
+
+.container {
+    width: 100%;
+
+}
+
+.nav__category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav__category-apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    column-gap: 30px;
+    margin-left: 250px;
+}
+
+.nav__category-list {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    margin: 6px;
+    color: #FFFFFF;
+
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 200px 468px 362px 469px;
+}
+
+h1 {
+    font-family: 'Prosto One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 75px;
+    color: #FFFFFF;
+    padding: 28px;
+
+}
+
+.header__text {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 382px;
+    background: #FFFF;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 13px 2px 13px 10px;
+    color: #171718;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    left: 54.38%;
+    right: 44.62%;
+    top: 15.29%;
+    bottom: 84.13%;
+    margin: auto;
+}
+
+header {
+    background: url(../image/Header.png);
+    width: 100%;
+    height: 700px;
+    left: -1px;
+    top: 6px;
+}
+
+
+
+
+/* <!-- ========= main start ========== --> */
+.Airpods {
+    background: rgb(17, 17, 17);
+}
+
+.Airpods__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Airpods__item-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    margin-left: 240px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+
+
+}
+
+.Airpods__item-image {
+    margin-right: 240px;
+    width: 552px;
+    height: 370px;
+    margin-bottom: 50px;
+    margin-top: 35px;
+}
+
+.Airpods__item_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Airpods__item_2-image {
+    width: 457px;
+    height: 408px;
+    margin-left: 275px;
+    margin-top: 50px;
+
+}
+
+.Airpods__item_2-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-right: 245px;
+    margin-left: 63px;
+}
+
+.Airpods__item_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Airpods__item-text_3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 245px;
+
+}
+
+.Airpods__item-text_3-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 246px;
+}
+
+.Airpods__item_3-image {
+    width: 268px;
+    height: 375px;
+    margin: 50px 88px 94px 88px;
+}
+
+.Airpods__item_4 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-left: 220px;
+    padding-right: 220px;
+    padding-bottom: 40px;
+}
+
+.Airpods__item_4-card {
+    /* width: 255px; */
+    /* height: 312px; */
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.Airpods__item_4-title {
+    width: 138px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0 59px 0 58px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.Airpods__item_4-image {
+    width: 127.5px;
+    height: 167px;
+    margin: 10px 64px 10px 64px;
+}
+
+.Airpods__item_4-text {
+    width: 130px;
+    height: 17px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    margin: 0 63px 15px 63px;
+}
+
+.Airpods__item_4-btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 161px;
+    height: 34px;
+
+    background: #151515;
+    margin: 0 47px 20px 47px;
+}
+
+
+
+/* <!-- ========= main end ========== --> */
+
+
+/* <!-- ========= footer start ========== --> */
+
+
+
+.footer__category {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    height: 250px;
+    background: #282828;
+    margin: 80px 245;
+    align-items: center;
+    /* margin: 80px 245; */
+}
+
+.footer__category-ul {
+    display: block;
+    color: #FFFFFF;
+    display: flex;
+    column-gap: 30px;
+
+
+}
+
+.footer__category-icon {
+   
+    justify-content: space-between;
+    width: 70px;
+    height: 55px;
+    background: #FFFFFF;
+}
+
+
+/* <!-- ========= footer end ========== --> */
